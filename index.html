@@ -1,10 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Mi primera página</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Bot de WhatsApp</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #25D366, #128C7E);
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      padding: 80px 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 25px;
+      background: white;
+      color: #128C7E;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #f1f1f1;
+      transform: scale(1.05);
+    }
+
+    .card {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      margin: 30px auto;
+      border-radius: 15px;
+      max-width: 500px;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 12px;
+      opacity: 0.8;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hola 👋</h1>
-  <p>Mi página gratis en GitHub Pages</p>
+
+  <div class="container">
+    <h1>🤖 Mi Bot de WhatsApp</h1>
+    <p>Un asistente inteligente conectado a WhatsApp que responde automáticamente, toma pedidos y te ayuda 24/7.</p>
+
+    <div class="card">
+      <h2>✨ ¿Qué puede hacer?</h2>
+      <p>✔ Responder saludos automáticamente<br>
+         ✔ Tomar pedidos o solicitudes<br>
+         ✔ Funciona con IA (opcional)<br>
+         ✔ Disponible 24/7</p>
+    </div>
+
+    <a class="btn" href="https://wa.me/5210000000000" target="_blank">
+      💬 Probar en WhatsApp
+    </a>
+
+    <footer>
+      Hecho con ❤ usando WhatsApp Bot + n8n
+    </footer>
+  </div>
+
 </body>
 </html>
